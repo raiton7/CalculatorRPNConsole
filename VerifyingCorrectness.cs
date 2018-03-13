@@ -277,7 +277,7 @@ namespace CalculatorRPNConsole
                 {
                     if (s[i + 1] == '-')
                     {
-                        s = s.Insert(i, '0'.ToString());
+                        s = s.Insert(i + 1, '0'.ToString());
                     }
                     else if (Parser.IsOperator(s[i + 1]))
                         return false;
