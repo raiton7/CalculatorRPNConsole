@@ -9,3 +9,5 @@ Classes:
 - VerifyingCorrectness - functions there can also be inside Parser, but I decided to seperate them, 
   it finds if something in input is wrong
 - Program - it has main function which has input operations and show a result of expression or show an error
+
+Made by Grzegorz Jurek
